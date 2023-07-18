@@ -1,0 +1,160 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+.header-item-list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: small;
+    color: black;
+}
+.banner-content {
+    width: 400px;
+    padding-left: 100px;
+    margin-top: 20px;
+    font-size: medium;
+}
+.btn {
+    border-radius: 41px;
+    background: #e02c6d;
+    color: white;
+    border: none;
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.camara-img {
+    width: 440px;
+    height: 414px;
+
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    padding-right: 100px;
+}
+
+.alibaba {
+    background-image: url(../logos/Alibaba.svg);
+    background-repeat: no-repeat;
+}
+.amazon {
+    background-image: url(../logos/Amazon.svg);
+    background-repeat: no-repeat;
+
+    width: 100px;
+    height: 40px;
+}
+.ebaly {
+    background-image: url(../logos/Ebay.svg);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 40px;
+}
+
+.rakuten {
+    background-image: url(../logos/Rakuten.svg);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 40px;
+}
+.daraz {
+    background-image: url(../logos/Daraz.pk\ Logo.svg);
+
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 40px;
+}
+
+.alibaba-list {
+    display: flex;
+    justify-content: space-around;
+
+    height: 100px;
+    align-items: center;
+    background-repeat: no-repeat;
+    list-style: none;
+    margin-top: 100px;
+}
+/* pupular conection nav */
+
+.pupular-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+/* card */
+
+.card {
+    width: 260px;
+    height: 400px;
+
+    box-shadow: 4px 8px 4px blueviolet;
+    border-radius: 5px;
+}
+.card-img {
+    width: 250px;
+    padding: 8px 5px;
+}
+.first-three-img {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.last-three-img {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.futured-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 150px;
+}
+.footer {
+    background-color: black;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content {
+    width: 300px;
+}
+.email-box {
+    border-radius: 5px;
+    border: none;
+    padding: 8px 40px 10px 5px;
+    font-size: medium;
+    color: white;
+}
+
+/* mobile reponsive */
+
+@media screen and (max-width: 576px) {
+    .banner {
+        display: block;
+    }
+    .header-item-list {
+        display: block;
+    }
+    .first-three-img {
+        flex-direction: column;
+    }
+    .last-three-img {
+        flex-direction: column;
+    }
+    .futured-nav {
+        flex-direction: column;
+    }
+}
